@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function () {
     playPauseBtn.addEventListener('click', function () {
         if (bgmusic.paused) {
             bgmusic.play();
-            playPauseImg.src = '/HTML-CSS-JAVASCRIPT/images/Pause.png'; // Change to pause image
+            playPauseImg.src = 'Pause.png'; // Change to pause image
         } else {
             bgmusic.pause();
-            playPauseImg.src = '/HTML-CSS-JAVASCRIPT/images/Play.png'; // Change to play image
+            playPauseImg.src = 'Play.png'; // Change to play image
         }
     });
 
