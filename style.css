@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("/HTML-CSS-JAVASCRIPT/images/WuWa.jpg");
+}
+#TopBody {
+    background-color: transparent;
+    max-width: 1200px;
+    padding-block-end: 10px;
+    align-self: top;
+    display: grid;
+}
+#MainBody {
+    background-color: darkslateblue;
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 1200px;
+    border-color: darkslategrey;
+    margin-top: 10px;
+    padding: 10px;
+    display: block; 
+}
+#PanelContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#BodyPanelLeft {
+    background-color: transparent;
+    flex: 1; 
+    display: block;
+}
+#BodyPanelRight {
+    background-color: transparent;
+    flex: 1; 
+    display: block;
+}
+
+#TopHeaders{
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 2px 2px 3px black;
+}
+#Headers {
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(200, 206, 211);
+}
+#site_image1{
+    width: 600px;
+    border: 1px black solid;
+    display: block;
+    box-shadow: 2px 2px 3px rgb(0, 37, 93);
+    margin-left: auto;
+    margin-right: auto;
+    max-height: auto;
+}
+#site_image2{
+    width: 400px;
+    border: 1px black solid;
+    display: block;
+    box-sizing: 2px 2px 3px rgb(0, 37, 93);
+    margin: auto;
+    align-self: center;
+}
+#site_image3{
+    width: 500px;
+    display: block;
+    box-sizing: 2px 2px 3px rgb(0, 37, 93);
+    margin: auto;
+    align-self: center;
+}
+#site_video1{
+    width: 800px;
+    border: 1px black solid;
+    display: block;
+    box-shadow: 2px 2px 3px rgb(0, 37, 93);
+    margin-left: auto;
+    margin-right: auto;
+    max-height: auto;
+}
+#site_video2{
+    height: 350px;
+    border: 1px black solid;
+    display: block;
+    box-shadow: 2px 2px 3px rgb(0, 37, 93);
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    max-width: auto;
+}
+#site_video3{
+    width: 600px;
+    border: 1px black solid;
+    display: block;
+    box-shadow: 2px 2px 3px rgb(0, 37, 93);
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    max-height: auto;
+}
+#Info{
+    color: aliceblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#Info2{
+    color: aliceblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#ReferringLinks{
+    color: aliceblue;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#playPauseBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    background: darkslategrey;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#playPauseBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+#Pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+}
+.pagination {
+    width: 350px;
+    background-color: midnightblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-link {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, cursor 0.3s;
+    text-align: center;
+}
+.page-link:hover {
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+}
+.page-link.active {
+    border: 2px solid;
+    background-color: midnightblue;
+    color: white;
+}
+
+#FooterYes {
+    background-color: midnightblue;
+    align-self: start;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+}

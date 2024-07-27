@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="/HTML-CSS-JAVASCRIPT/images/web-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <audio id="bgmusic" src="/HTML-CSS-JAVASCRIPT/music/Fight For The Present.mp3" autoplay loop></audio>
+        <button id="playPauseBtn">
+            <img id="playPauseImg" src="/HTML-CSS-JAVASCRIPT/images/Pause.png" alt="Play Button">
+        </button>
+    </div>
+    <div id="TopBody">
+        <h1 id="TopHeaders">Home</h1>
+    </div>
+    <div id='MainBody'>
+        <h1 id="Headers">Introduction of Sparky</h1>
+        <br>
+        <p id="Info">
+            This website is about a bot named Sparky! Please navigate through the different pages below to find out more!<br>
+            Sparky is a <a id="ReferringLinks" href="https://en.wikipedia.org/wiki/Discord" title="Leads to Wikipedia" target="_blank">Discord</a> bot that is designed to handle multiple things, such as;
+            moderation, chatting, and games! One being the built-in free <a id="ReferringLinks" href="https://en.wikipedia.org/wiki/Gacha_game" title="Leads to Wikipedia" target="_blank">gacha</a> system!
+        </p>
+        <p id="Info">
+            <sup>What are you waiting for? Check out the rest of the pages below!</sup>
+        </p>
+        <br>
+
+        <div class="pagination" id="Pages">
+            <a href="index.html" class="page-link" data-page="1">Home</a>
+            <a href="page2.html" class="page-link" data-page="2">About Sparky</a>
+            <a href="page3.html" class="page-link" data-page="3">Who made Sparky?</a>
+            <a href="page4.html" class="page-link" data-page="4">Commands</a>
+            <a href="page5.html" class="page-link" data-page="5">Sparky Updates</a>
+        </div>
+    </div>
+
+    <footer id="FooterYes">
+        <hr>
+        <p>Nothing to see here officer :eyes:</p>
+        <hr>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
