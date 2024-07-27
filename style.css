@@ -3,7 +3,7 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url("/HTML-CSS-JAVASCRIPT/images/WuWa.jpg");
+    background-image: url("WuWa.jpg");
 }
 #TopBody {
     background-color: transparent;
